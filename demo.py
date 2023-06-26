@@ -60,7 +60,6 @@ def main():
         print(f"Site URL:",site["urls"])    
         print(f"==========*******==========")
     
-
     with open('ndoConfig.yaml', 'r') as file:
         # Load the YAML data from the file
         data = yaml.safe_load(file)
