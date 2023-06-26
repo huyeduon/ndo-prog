@@ -1,7 +1,10 @@
 # ndo-prog
-Put your ND information (ip address, username, password) to config.py
+## Setup initial parameters
+Put your ND information (ip address, username, password) to config.py<br />
 Put your NDO configuration (tenants name) to ndoConfig.yaml
-To create tenants in ndoConfig.yaml file:
+## To Create tenant
+To create tenants in ndoConfig.yaml file:<br />
 python3 demo.py
-To delete tenants in ndoConfig.yaml (providing that those tenants exist):
+## To Delete tenant
+To delete tenants in ndoConfig.yaml (providing that those tenants exist):<br />
 python3 delete.py
